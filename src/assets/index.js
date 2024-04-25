@@ -24,7 +24,9 @@ import threejs from "./tech/threejs.svg";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import tfl from "./company/tfl.png";
+import amazon from "./company/amazon.png"
+import ei from "./company/educationIcon.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -40,6 +42,7 @@ export {
   menu,
   close,
   css,
+  tfl,
   docker,
   figma,
   git,
@@ -55,8 +58,9 @@ export {
   meta,
   shopify,
   starbucks,
-  tesla,
   carrent,
   jobit,
   tripguide,
+  amazon,
+  ei,
 };

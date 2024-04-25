@@ -35,7 +35,7 @@ const Hero = () => {
           className="w-100 h-100 p-4 m-2 rounded-[88px]"
           style={{ backgroundColor: "rgba(5, 8, 22, 0.3)" }}
         >
-          <h1 className="text-[70px] font-bold m-4 text-[#efd5b9]">
+          <h1 className="text-[70px] font-bold m-4 text-[rgb(239,213,185)]">
             Hi, I'm <span className="text-[#cb3d2d]">Aviral</span>
           </h1>
           <p className="pl-10 m-2 text-[30px] font-medium  text-[#fff785]">
@@ -53,7 +53,7 @@ const Hero = () => {
         } `}
       >
         <a href="#about">
-          <div className={`${isMobile?'w-[44px] h-[58px]':'w-[32px] h-[58px]'} rounded-3xl border-4 border-pink-500 flex justify-center items-start p-2`}>
+          <div className={`${isMobile?'w-[44px] h-[58px]':'w-[32px] h-[58px]'} rounded-3xl border-4 border-white-500 flex justify-center items-start p-2`}>
             <motion.div
               animate={{
                 y: [0, 24, 0],
@@ -63,7 +63,7 @@ const Hero = () => {
                 repeat: Infinity,
                 repeatType: "loop",
               }}
-              className="w-3 h-3 rounded-full bg-yellow-300 mb-1"
+              className="w-3 h-3 rounded-full bg-red-500 mb-1"
             />
           </div>
         </a>

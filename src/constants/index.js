@@ -17,12 +17,15 @@ import {
     docker,
     meta,
     starbucks,
-    tesla,
     shopify,
     carrent,
     jobit,
     tripguide,
     threejs,
+    logo,
+    tfl,
+    amazon,
+    ei,
   } from "../assets";
   
   export const navLinks = [
@@ -42,11 +45,11 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "ML Engineer",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "React.js Developer",
       icon: mobile,
     },
     {
@@ -54,7 +57,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "DevOps Engineer",
       icon: creator,
     },
   ];
@@ -116,55 +119,55 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      title: "Portfolio Website",
+      company_name: "Personal Portfolio",
+      icon: logo,
+      iconBg: "#000000",
+      date: "Mar 2024 - Apr 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed and maintained a professional portfolio website using Vite.js, HTML, CSS, and JavaScript to showcase my skills, experience, and projects.",
+        "Designed, developed, and maintained the portfolio website independently.",
+        "Evolving over time to reflect my growing skills and experience, such as adding new projects, updating design elements, or expanding functionality."
+    ],
+    },
+    {
+      title: "Speed Breaker & Pothole Detection",
+      company_name: "Research",
+      icon: tfl,
+      iconBg: "#000000",
+      date: "Jan 2024 - Apr 2024",
+      points: [
+        "Developed an app using computer vision techniques including YOLOV5 and Faster R-CNN to detect speed breakers and potholes on roads.",
+        "The system aims to enhance road safety by providing real-time alerts to drivers, enabling them to take necessary precautions.",
+        "Programming Languages: Python.",
+        "Libraries: Pandas, Numpy, OpenCV.",
+        "Frameworks: Tensorflow.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      title: "Amazon_Clone",
+      company_name: "Amazon",
+      icon: amazon,
+      iconBg: "#000000",
+      date: "Aug 2023 - Dec 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed a replica of the Amazon e-commerce platform with a focus on replicating key features and functionalities.",
+        " Implemented user authentication, product search, and shopping cart management functionalities to mimic the original platform's user experience.",
+        "Frontend: HTML, CSS, JavaScript, React.js.",
+        "Backend: Node.js, Express.js.",
+        "Database: MongoDB.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      title: "DelveFlow",
+      company_name: "Educational Streaming Platform",
+      icon: ei,
+      iconBg: "#000000",
+      date: "Feb 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Led the development of an innovative education streaming platform aimed at providing high-quality educational content to students and professionals in various fields.",
+        "Spearheaded the project as the lead developer, overseeing all aspects of development from conceptualization to deployment.",
+        "Utilized cutting-edge technologies such as Node.js, MongoDB, JavaScript, React, and streaming technologies to develop a robust and scalable platform.",
       ],
     },
   ];
