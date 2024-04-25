@@ -44,12 +44,12 @@
 }
 
 .black-gradient {
-  background: #000000;
-  background: linear-gradient(-90deg, #000000 0%, rgba(63, 62, 66, 0) 100%);
+  background: #ede962;
+  background: linear-gradient(-90deg, #cf7171 0%, rgba(234, 187, 21, 0) 100%);
   background: -webkit-linear-gradient(
     -90deg,
-    #070707 0%,
-    rgba(45, 43, 49, 0) 100%
+    #932e2e 0%,
+    rgba(214, 123, 123, 0) 100%
   );
 }
 

@@ -1,5 +1,5 @@
 import { Canvas } from '@react-three/fiber'
-import React, { Suspense, useState } from 'react'
+import React, { Suspense, useEffect, useState } from 'react'
 import { OrbitControls, Preload, useGLTF } from '@react-three/drei'
 import CanvasLoader from "../Loader";
 
@@ -19,8 +19,8 @@ const Computers = ({ isMobile }) => {
       <pointLight intensity={1} />
       <primitive
         object={scene} // corrected from computer.scene to scene
-        scale={1.1}
-        position={ [7.8, -6.5, 1.5]}
+        scale={isMobile? 0.7: 1.1}
+        position={isMobile?[5, -10.5, 0.5]:[7.8, -6.5, 1.5]}
         rotation={[0.0, -0.46, -0.2]}
       />
     </mesh>
@@ -29,15 +29,31 @@ const Computers = ({ isMobile }) => {
 
 const ComputersCanvas = () => {
   const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const mediaQuery = window.matchMedia("(max-width: 500px)");
+    setIsMobile(mediaQuery.matches);
+
+    const handleMediaQueryChange = (event) => {
+      setIsMobile(event.matches);
+    };
+
+    mediaQuery.addListener(handleMediaQueryChange);
+
+    return () => {
+      mediaQuery.removeListener(handleMediaQueryChange);
+    };
+  }, []);
+
   return (
     <Canvas
       frameloop='demand'
       shadows
       dpr={[1, 2]}
-      camera={{ position: [40, 30, 20], fov: 20 }}
+      camera={{ position: isMobile ? [60, 30, 20] : [40, 30, 20], fov: 20 }}
       gl={{ preserveDrawingBuffer: true }}
     >
-      <Suspense >
+      <Suspense fallback={<CanvasLoader/>}>
         <OrbitControls
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}
