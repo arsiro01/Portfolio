@@ -24,4 +24,4 @@ dist-ssr
 *.sw?
 
 #largefiles
-*.webm
+src/assets/videoplayback.webm
