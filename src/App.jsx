@@ -11,7 +11,7 @@ import {
   StarsCanvas,
   Hero,
 } from "./components";
-import finalAnimVideo from "./assets/videoplayback.webm"; // Import the video file
+import finalAnimVideo from "C:/Users/avira/OneDrive/Desktop/videoplayback.webm"; // Import the video file
 
 const App = () => {
   // Create a ref to the video element
