@@ -9,7 +9,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
     <nav
-      className={`${styles.paddingX} w-full flex items-start py-5 fixed top-0 z-20`} style={{ backgroundColor: 'rgba(5, 8, 22, 0.7)' }}
+      className={`${styles.paddingX} w-full flex items-start py-5 fixed top-0 z-20`} style={{ backgroundColor: 'rgba(5, 8, 22, 0.8)' }}
     >
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <Link

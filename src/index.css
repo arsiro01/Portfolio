@@ -43,6 +43,16 @@
   );
 }
 
+.black-gradient {
+  background: #000000;
+  background: linear-gradient(-90deg, #000000 0%, rgba(63, 62, 66, 0) 100%);
+  background: -webkit-linear-gradient(
+    -90deg,
+    #070707 0%,
+    rgba(45, 43, 49, 0) 100%
+  );
+}
+
 .green-pink-gradient {
   background: "#00cea8";
   background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
