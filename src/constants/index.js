@@ -48,18 +48,30 @@ import {
     {
       title: "ML Engineer",
       icon: web,
+      skills:[
+        "Python",
+        "ML ops",
+        "ML & DL",
+        "OpenCV",
+        "TensorFlow",
+        "Scikit-learn",
+        ,
+      ],
     },
     {
       title: "React.js Developer",
       icon: mobile,
+      skills: ["CSS","HTML", "React.js", "Bootstrap","JavaScript", "Tailwind CSS"],
     },
     {
       title: "Backend Developer",
       icon: backend,
+      skills: ["Node.js","Express.js","MongoDB","PostgreSQL","JWT, OAuth","RESTful APIs"],
     },
     {
       title: "DevOps Engineer",
       icon: creator,
+      skills: ["Git","AWS","CI/CD","Docker","Jenkins","Kubernetes"],
     },
   ];
   

@@ -4,10 +4,8 @@ import {
   About,
   Contact,
   Experience,
-  Feedbacks,
   Navbar,
   Tech,
-  Works,
   StarsCanvas,
   Hero,
 } from "./components";
@@ -51,8 +49,6 @@ const App = () => {
         <About />
         <Experience />
         <Tech />
-        <Works />
-        <Feedbacks />
         <div className="relative z-0">
           <Contact />
           <StarsCanvas />
