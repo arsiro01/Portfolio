@@ -27,7 +27,7 @@ import starbucks from "./company/starbucks.png";
 import tfl from "./company/tfl.png";
 import amazon from "./company/amazon.png"
 import ei from "./company/educationIcon.png"
-
+import psl from "./company/psl.png"
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -63,4 +63,5 @@ export {
   tripguide,
   amazon,
   ei,
+  psl,
 };

@@ -26,6 +26,7 @@ import {
     tfl,
     amazon,
     ei,
+    psl,
   } from "../assets";
   
   export const navLinks = [
@@ -108,8 +109,12 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "tensorflow",
+      icon: tfl,
+    },
+    {
+      name: "PostgreSQL",
+      icon: psl,
     },
     {
       name: "docker",
