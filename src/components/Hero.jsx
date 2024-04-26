@@ -45,7 +45,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="absolute inset-1 top-[100px]">
-        <ComputersCanvas />
+        {isMobile?<></>:<ComputersCanvas />}
       </div>
       <div
         className={` ${
